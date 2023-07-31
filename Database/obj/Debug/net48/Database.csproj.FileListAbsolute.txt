@@ -1,0 +1,12 @@
+C:\Developer\VisualStudio\CashRegister\Database\bin\Debug\net48\Database.dll
+C:\Developer\VisualStudio\CashRegister\Database\bin\Debug\net48\Database.pdb
+C:\Developer\VisualStudio\CashRegister\Database\bin\Debug\net48\MySql.Data.dll
+C:\Developer\VisualStudio\CashRegister\Database\bin\Debug\net48\Newtonsoft.Json.dll
+C:\Developer\VisualStudio\CashRegister\Database\obj\Debug\net48\Database.csproj.AssemblyReference.cache
+C:\Developer\VisualStudio\CashRegister\Database\obj\Debug\net48\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Developer\VisualStudio\CashRegister\Database\obj\Debug\net48\Database.AssemblyInfoInputs.cache
+C:\Developer\VisualStudio\CashRegister\Database\obj\Debug\net48\Database.AssemblyInfo.cs
+C:\Developer\VisualStudio\CashRegister\Database\obj\Debug\net48\Database.csproj.CoreCompileInputs.cache
+C:\Developer\VisualStudio\CashRegister\Database\obj\Debug\net48\Database.csproj.CopyComplete
+C:\Developer\VisualStudio\CashRegister\Database\obj\Debug\net48\Database.dll
+C:\Developer\VisualStudio\CashRegister\Database\obj\Debug\net48\Database.pdb

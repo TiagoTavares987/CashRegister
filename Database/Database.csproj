@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{B6B22FA8-25A4-47B3-8DF3-EBED20738BF1}</ProjectGuid>
+    <RootNamespace>Database</RootNamespace>
+    <UseMSBuildEngine>false</UseMSBuildEngine>
+    <TargetFramework>net48</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="6.9.12" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>
