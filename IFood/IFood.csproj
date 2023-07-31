@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{F5C3CF08-8EBB-4AC8-86EF-B843AEBA522E}</ProjectGuid>
+    <RootNamespace>IFood</RootNamespace>
+    <UseMSBuildEngine>false</UseMSBuildEngine>
+    <TargetFramework>net48</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>
