@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{ABD71ED3-0574-42C8-B6C0-F0D79DBD4944}</ProjectGuid>
+    <RootNamespace>CashRegisterCore</RootNamespace>
+    <UseMSBuildEngine>false</UseMSBuildEngine>
+    <TargetFramework>net48</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Database\Database.csproj" />
+    <ProjectReference Include="..\ThermalPrinter\ThermalPrinter.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="CashRegisterDbCreateSeed" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="config.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

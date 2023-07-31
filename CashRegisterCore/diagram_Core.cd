@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CashRegisterCore.AppCore">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAxACAAAAACAAgEBAMIAgAgAAAEKAAAAAGRAAAAAA=</HashCode>
+      <FileName>AppCore.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_db" />
+      <Field Name="_userManager" />
+      <Field Name="_clientManager" />
+      <Field Name="_documentManager" />
+      <Field Name="_familyManager" />
+      <Field Name="_itemManager" />
+      <Field Name="_printingManager" />
+      <Field Name="_imageResourceManager" />
+      <Field Name="_printingService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterCore.Managers.ClientManager">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEBAABAAAA=</HashCode>
+      <FileName>Managers\ClientManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_provider" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Database.MySql">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CashRegisterCore.Managers.DocumentManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABCAAAAAAAQAAAAAACAAAAAABAAAAAAAAgCAgAAAAA=</HashCode>
+      <FileName>Managers\DocumentManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_provider" />
+      <Field Name="_providerLine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterCore.Managers.FamilyManager">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAAAAAAAAAAAAAAAAAEAAAAAkAAAAAAAAE=</HashCode>
+      <FileName>Managers\FamilyManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_provider" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterCore.Managers.ImageResourceManager">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAABAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ImageResourceManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_provider" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterCore.Managers.ItemManager">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAAEAAAQAAAEAAAAAAAAAAQgAAACAAAAA=</HashCode>
+      <FileName>Managers\ItemManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_provider" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterCore.Managers.PrintingManager">
+    <Position X="8.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAAAAAAAAAAACAQAAAAAAAAAEAAAAAEAAA=</HashCode>
+      <FileName>Managers\PrintingManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_printingProvider" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterCore.Services.PrintingService">
+    <Position X="10.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Services\PrintingService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_provider" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterCore.Managers.UserManager">
+    <Position X="3.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAiAgAAEAAAAAAAAAAAAAAAAGgAAAAAAAAA=</HashCode>
+      <FileName>Managers\UserManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_provider" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterCore.Providers.ClientProvider">
+    <Position X="5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgABAABAAAQ=</HashCode>
+      <FileName>Providers\ClientProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Providers.DocumentLineProvider">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAEgAAAAAAAAA=</HashCode>
+      <FileName>Providers\DocumentLineProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Providers.DocumentProvider">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAARAAAAAAAggCAAIAAAA=</HashCode>
+      <FileName>Providers\DocumentProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Providers.FamilyProvider">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAEAEAAA=</HashCode>
+      <FileName>Providers\FamilyProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Providers.ImageResourceProvider">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAABAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAEA=</HashCode>
+      <FileName>Providers\ImageResourceProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Providers.ItemProvider">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQABAAAAAAEAAAQAAAEAAAAAAAAAAAgAAACAAAAA=</HashCode>
+      <FileName>Providers\ItemProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Providers.PrintingProvider">
+    <Position X="6.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Providers\PrintingProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Providers.UserProvider">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAEAARAAAAAAEgAAAAAAAAA=</HashCode>
+      <FileName>Providers\UserProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Managers.DocumentBuilder">
+    <Position X="13.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAEAAAEAAAAAAAEACgAAgAAAAAAgAAAFAAAQ=</HashCode>
+      <FileName>Managers\DocumentBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_document" />
+      <Field Name="_client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterCore.Utils.Constant">
+    <Position X="21" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBBEAAAAAiAAEEAIAAAAAAAAAAAEIADAAAAZAAABAA=</HashCode>
+      <FileName>Utils\Constant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Utils.Extensions">
+    <Position X="15" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAABAA=</HashCode>
+      <FileName>Utils\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Utils.FinalCustomer">
+    <Position X="15.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Utils\FinalCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Utils.Resources">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAgAEAAAAAAgAQAAAAIAAAAACAAAAAAggA=</HashCode>
+      <FileName>Utils\Resources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Utils.Validate">
+    <Position X="19.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\ValidateNif.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.Client">
+    <Position X="13.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAgAAAAAQAAAAAAAECAAAAAAAAABA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.Document">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiACAABABAIAAAAFgEAAAAAAAAAAQQADQAAAACAAABE=</HashCode>
+      <FileName>Entities\Document.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.DocumentLine">
+    <Position X="17.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAgABAQgAAAAAAAAAAAAQAAAQAAAAAAAgAAAABA=</HashCode>
+      <FileName>Entities\DocumentLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.Family">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAEAAgAAAAAAABA=</HashCode>
+      <FileName>Entities\Family.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.FullAddress">
+    <Position X="18.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAIIAAAAAAAAAIAAAACAAAAAAAAABA=</HashCode>
+      <FileName>Entities\FullAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.ImageResource">
+    <Position X="16.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAABAAAABAAAAAABA=</HashCode>
+      <FileName>Entities\ImageResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.Item">
+    <Position X="17.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAQAgAAABAAAAABQAAAAAAIEAAAAAAAAAABA=</HashCode>
+      <FileName>Entities\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.Printer">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\Printer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.Printing">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Printing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.PrintToPrinter">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PrintToPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.User">
+    <Position X="19.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQAAAAAACAAAAAECAAAAAAAAABA=</HashCode>
+      <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
