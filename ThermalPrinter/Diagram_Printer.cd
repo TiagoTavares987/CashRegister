@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ThermalPrinter.Printer">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Printer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_printer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ThermalPrinter.Utils.Barcode">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAABAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\Barcode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThermalPrinter.PrinterConfig.SerialPrinterConfig">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAAUAAA=</HashCode>
+      <FileName>PrinterConfig\SerialPrinterConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ThermalPrinter.PrinterConfig.DocumentPrinterConfig">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrinterConfig\DocumentPrinterConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ThermalPrinter.ContentConfig.ContentLine">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABIAAAAABAAggAEAAAAAIABgAAQAACCACAAA=</HashCode>
+      <FileName>ContentConfig\ContentLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ThermalPrinter.PrinterConfig.IPrinter">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>PrinterConfig\IPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

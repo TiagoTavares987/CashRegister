@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PVWVf1TTx3bU+X64FWF4dAGUxTchEIa5wsiAfBp5rnIWH2DN+0Jp409PkhAsf1BM/Y+LSlGRMsWyMk7NUYMUQA==",
+  "success": true,
+  "projectFilePath": "C:\\Developer\\VisualStudio\\CashRegister\\ThermalPrinter\\ThermalPrinter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tiago\\.nuget\\packages\\itextsharp.4.1.6.0\\4.1.6\\itextsharp.4.1.6.0.4.1.6.nupkg.sha512",
+    "C:\\Users\\Tiago\\.nuget\\packages\\messagingtoolkit.qrcode\\1.3.0\\messagingtoolkit.qrcode.1.3.0.nupkg.sha512",
+    "C:\\Users\\Tiago\\.nuget\\packages\\zxing.net\\0.16.8\\zxing.net.0.16.8.nupkg.sha512"
+  ],
+  "logs": []
+}

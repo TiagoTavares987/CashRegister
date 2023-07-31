@@ -1,0 +1,14 @@
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\bin\Debug\net48\ThermalPrinter.dll
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\bin\Debug\net48\ThermalPrinter.pdb
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\bin\Debug\net48\MessagingToolkit.QRCode.dll
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\bin\Debug\net48\zxing.dll
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\bin\Debug\net48\zxing.presentation.dll
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\obj\Debug\net48\ThermalPrinter.csproj.AssemblyReference.cache
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\obj\Debug\net48\ThermalPrinter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\obj\Debug\net48\ThermalPrinter.AssemblyInfoInputs.cache
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\obj\Debug\net48\ThermalPrinter.AssemblyInfo.cs
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\obj\Debug\net48\ThermalPrinter.csproj.CoreCompileInputs.cache
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\obj\Debug\net48\ThermalPrinter.csproj.CopyComplete
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\obj\Debug\net48\ThermalPrinter.dll
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\obj\Debug\net48\ThermalPrinter.pdb
+C:\Developer\VisualStudio\CashRegister\ThermalPrinter\bin\Debug\net48\itextsharp.dll
