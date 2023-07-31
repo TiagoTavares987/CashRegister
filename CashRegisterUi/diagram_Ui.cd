@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CashRegisterUi.MainClass">
+    <Position X="2.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.ConfigClientWindow">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAAAAAAAAIAGAAAAALAAAAAAQIwAAAAAkBQAAAAAA=</HashCode>
+      <FileName>Windows\ConfigClientWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.ConfigFamilyWindow">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAACAAEAAAQEQAAAAAABQAAAAAA=</HashCode>
+      <FileName>Windows\ConfigFamilyWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_family" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.ConfigItemWindow">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAAABAAACAAAAACAAAAABQAQgAAQAABQBACAAA=</HashCode>
+      <FileName>Windows\ConfigItemWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.ConfigUserWindow">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAgAACAAAAACAABAAAQAQIAAAAABQAAAAAA=</HashCode>
+      <FileName>Windows\ConfigUserWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_user" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.DocumentClientWindow">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAAAAAAAAIEGAAAAAJAAAAAAAIgIAAgAgAQAAAAAQ=</HashCode>
+      <FileName>Windows\DocumentClientWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.FileDialogWindow">
+    <Position X="12.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\FileDialogWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.ListConfigWindow">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\ListConfigWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.ListDocumentWindow">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\ListDocumentWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.LoginWindow">
+    <Position X="4.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\LoginWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.MainWindow">
+    <Position X="10.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IARECAAAEghiEYABAAAAACAAAABBAAAgCAEAAQYBBaA=</HashCode>
+      <FileName>Windows\MainWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_selectedFamily" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.MessagePopup">
+    <Position X="2.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\MessagePopup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.PrintOrEmailWindow">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAE=</HashCode>
+      <FileName>Windows\PrintOrEmailWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_document" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterUi.Windows.SplashWindow">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\SplashWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Entities.Document">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CashRegisterCore.Entities.Family">
+    <Position X="7" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CashRegisterCore.Entities.User">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CashRegisterCore.Entities.Item">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CashRegisterCore.Entities.Client">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CashRegisterUi.ViewModel.ClientViewModel">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAEBAAAAAAAAAAAAAAAAAACAIA=</HashCode>
+      <FileName>ViewModel\ClientViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.ViewModel.CloseAccountViewModel">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAIAAAQAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\CloseAccountViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_documentBuilder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CashRegisterUi.ViewModel.EntityViewModel">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAEAAAAAEBQAAAAAAAAAAAAAAAQACAII=</HashCode>
+      <FileName>ViewModel\EntityViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.ViewModel.FamilyViewModel">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAEBAAAAAAAAAAAAAAAAAACAIA=</HashCode>
+      <FileName>ViewModel\FamilyViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.ViewModel.ItemViewModel">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAEBAAAAAAAAAAAAAAAAAACAIA=</HashCode>
+      <FileName>ViewModel\ItemViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.ViewModel.UserViewModel">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAEBAAAAAAAAAAAAAAAAAACAIA=</HashCode>
+      <FileName>ViewModel\UserViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterCore.Managers.DocumentBuilder">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CashRegisterUi.Utils.Extensions">
+    <Position X="16" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAABA=</HashCode>
+      <FileName>Utils\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.Utils.Grid">
+    <Position X="14" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAACAAkAAAAAAAAAAAAAAAAAAEiAAAAAAQAA=</HashCode>
+      <FileName>Utils\Grid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.Utils.GridColumn">
+    <Position X="18.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAgAAAAAAAAAQAAIAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Utils\Grid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.Controls.ImageButton">
+    <Position X="14" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\ImageButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CashRegisterUi.Languages.EN">
+    <Position X="15.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAQEAAAAAAACIAAQAAAAAAA=</HashCode>
+      <FileName>Languages\EN.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CashRegisterUi.Languages.PT">
+    <Position X="12.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAQEAAAAAAACIAAQAAAAAAA=</HashCode>
+      <FileName>Languages\PT.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CashRegisterUi.Languages.Translate">
+    <Position X="18.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAACAAAAAAJAAACAAAAAAAAAAAAAAAABAAAACA=</HashCode>
+      <FileName>Languages\Translate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
